@@ -21,6 +21,9 @@ const Navbar = () => {
             <a href="#showcase" className="text-muted-foreground hover:text-foreground transition-colors">
               Showcase
             </a>
+            <a href="#testimonials" className="text-muted-foreground hover:text-foreground transition-colors">
+              Reviews
+            </a>
             <a href="#download" className="text-muted-foreground hover:text-foreground transition-colors">
               Download
             </a>
@@ -30,7 +33,7 @@ const Navbar = () => {
           <div className="flex items-center gap-3">
             <a
               href="#download"
-              className="hidden sm:inline-flex items-center justify-center h-10 px-6 rounded-xl bg-hero-gradient text-primary-foreground font-semibold shadow-hero-glow hover:scale-[1.03] active:scale-[0.98] transition-transform"
+              className="inline-flex items-center justify-center h-10 px-6 rounded-xl bg-hero-gradient text-primary-foreground font-semibold shadow-hero-glow hover:scale-[1.03] active:scale-[0.98] transition-transform"
             >
               Download Free
             </a>
